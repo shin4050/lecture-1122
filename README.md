@@ -23,8 +23,8 @@ end
 
 | パスの形 | コントローラ | アクション | 対応するソースコード |
 | --- | --- | --- | --- |
-| ★    | ★    | ★    | `root "top#index"`                        |
-| ★    | ★    | ★    | `get "about" => "top#about", as: "about"` |
+| /    | top_controller.rb    | index    | `root "top#index"`                        |
+| /about    | top_controller.rb    | about    | `get "about" => "top#about", as: "about"` |
 
 ヒント:
 
